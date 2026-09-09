@@ -17,26 +17,19 @@ hola-chummy-circle/
 ├── index.html          # Página principal
 ├── styles.css          # Estilos CSS
 ├── script.js           # Funcionalidades JavaScript
-├── images/             # Carpeta de imágenes
-│   ├── yaguarete.jpg
-│   ├── pajaro-rojo.jpg
-│   ├── pajaro-amarillo.jpg
-│   ├── pajaro-azul.jpg
-│   ├── capibara.jpg
-│   └── pajaro-rojo-blanco.jpg
 └── README.md           # Este archivo
 ```
 
-## 🖼️ Imágenes Integradas
+## 🖼️ Secciones con Fondos
 
-Las siguientes imágenes están optimizadas como fondos en cada sección:
+El sitio incluye imágenes de fondo en las siguientes secciones:
 
-1. **Yaguarete** - Sección de contacto
-2. **Pájaro Rojo** - Sección "Publicita con nosotros"
-3. **Pájaro Amarillo** - Sección "Flyers creativos"
-4. **Pájaro Azul** - Sección "Escúchanos en vivo" (Info)
-5. **Capibara** - Sección "Escúchanos en vivo" (Inicio)
-6. **Pájaro Rojo y Blanco** - Sección "Conocé Ñande Reko Radio"
+1. **Sección Contacto** - Yaguarete
+2. **Sección Publicita con nosotros** - Pájaro rojo
+3. **Sección Flyers creativos** - Pájaro amarillo
+4. **Sección Escúchanos en vivo (Info)** - Pájaro azul
+5. **Sección Escúchanos en vivo (Inicio)** - Capibara
+6. **Sección Conocé Ñande Reko Radio** - Pájaro rojo y blanco
 
 ## 🎨 Paleta de Colores
 
@@ -52,25 +45,31 @@ El sitio es completamente responsivo:
 - **Tablet**: Layout adaptado
 - **Móvil**: Navegación optimizada y content stack
 
-## 🚀 Cómo Usar
+## 🚀 Instalación y Uso
 
-1. Clona este repositorio
+1. Clona este repositorio:
+```bash
+git clone https://github.com/romina222674/hola-chummy-circle.git
+```
+
 2. Abre `index.html` en tu navegador
-3. Personaliza los links de WhatsApp y Zeno.fm en `script.js`
-4. Sube las imágenes a la carpeta `images/`
-5. Despliega en tu hosting preferido
 
-## 🔗 Enlaces Importantes
+3. Personaliza los enlaces:
+   - Reemplaza el número de WhatsApp en `script.js`
+   - Actualiza los links de redes sociales en el footer
+   - Modifica los datos de contacto según sea necesario
 
-- **WhatsApp**: Reemplaza `TU_NUMERO_AQUI` con tu número de WhatsApp
-- **Zeno.fm**: Link de streaming en vivo
-- **Redes Sociales**: Conecta tus perfiles en el footer
-
-## 📞 Contacto
+## 📞 Información de Contacto
 
 - **Teléfono**: +54 9 3794 96-0802
 - **Email**: santandermultimedios@hotmail.com
 - **Ubicación**: Corrientes, Argentina
+
+## 🔗 Enlaces Importantes
+
+- **WhatsApp**: Para pedidos de chamamés y consultas
+- **Zeno.fm**: Plataforma de streaming en vivo
+- **Redes Sociales**: Facebook, Instagram, YouTube, Telegram
 
 ## 📄 Licencia
 

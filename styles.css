@@ -46,11 +46,6 @@ body {
     color: var(--primary-color);
 }
 
-.logo img {
-    width: 40px;
-    height: 40px;
-}
-
 .nav-links {
     display: flex;
     list-style: none;
@@ -70,7 +65,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/jaguar-hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -288,9 +283,7 @@ body {
 
 /* Request Section */
 .request-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/request-bg.jpg');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     padding: 3rem 2rem;
     text-align: center;
 }

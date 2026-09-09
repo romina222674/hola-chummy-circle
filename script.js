@@ -52,13 +52,13 @@ document.head.appendChild(style);
 document.querySelectorAll('.btn-primary, .btn-play, .btn-whatsapp').forEach(btn => {
     btn.addEventListener('click', function() {
         if (this.textContent.includes('WhatsApp') || this.textContent.includes('Pedir')) {
-            // Redirigir a WhatsApp
-            window.open('https://wa.me/message/TU_NUMERO_AQUI', '_blank');
+            // Reemplaza con tu número de WhatsApp
+            window.open('https://wa.me/543794960802', '_blank');
         } else if (this.textContent.includes('Escuchar')) {
-            // Redirigir al reproductor
-            window.open('https://zeno.fm/radio/nande-reko-radio/', '_blank');
+            // Reemplaza con tu link de reproducción
+            window.open('https://zeno.fm/radio/', '_blank');
         } else if (this.textContent.includes('Zeno')) {
-            window.open('https://zeno.fm/radio/nande-reko-radio/', '_blank');
+            window.open('https://zeno.fm/radio/', '_blank');
         }
     });
 });
@@ -74,4 +74,4 @@ document.querySelectorAll('.info-card').forEach(card => {
     });
 });
 
-console.log('Script cargado correctamente');
+console.log('Ñande Reko Radio - Script cargado correctamente');
